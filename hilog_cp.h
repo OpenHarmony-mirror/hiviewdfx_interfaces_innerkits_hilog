@@ -22,11 +22,12 @@
 
 namespace OHOS {
 namespace HiviewDFX {
-typedef struct HiLogLabel {
+
+struct HiLogLabel {
     LogType type;
     unsigned int domain;
     const char *tag;
-} HiLogLabel;
+};
 
 class HiLog final {
 public:
